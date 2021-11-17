@@ -169,6 +169,14 @@
             <version>8.0.26</version>
         </dependency>
 
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+
 
         <!-- JASYPT: Spring 3.1x Simplified Encryption -->
         <dependency>
