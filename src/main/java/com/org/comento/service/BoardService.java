@@ -1,12 +1,12 @@
-package com.org.comento.dao;
+package com.org.comento.service;
 
 import com.org.comento.domain.BoardVO;
 
 import java.util.List;
 
-public interface BoardDAO {
+public interface BoardService {
 
-    // 1. 리스트
+    // 1. 게시판 리스트
     public List<BoardVO> list() throws Exception;
-
 }
+
