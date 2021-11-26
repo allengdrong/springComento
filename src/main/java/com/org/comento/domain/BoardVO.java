@@ -11,7 +11,8 @@ public class BoardVO {
     private String title;
     private String content;
     private String writer;
-    private String pwd;
     private Date writeDate;
+    private Long hit;
+    private String pw;
 
 }
